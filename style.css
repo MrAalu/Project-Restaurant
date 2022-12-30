@@ -57,22 +57,28 @@ nav {
 }
 
 /* WELCOME TO PART STARTS HERE  */
-.mid {
-    background: #85A300;
-    /* background-image: linear-gradient(rgba(248, 252, 30, 0.65), rgba(9, 0, 77, 0.65)), url(img/background3.jpg); */
+.mid-top {
+    /* background: #85A300; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(89, 163, 233, 0.2)), url(img/background2.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
-    min-height: 100%;
-    text-align: center;
+    /* min-height: 100%; */
+    min-height: calc(100vh - 110px);
+    text-align: left;
 }
 
 .mid-intro {
-    align-items: center;
-    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 3em;
+    position: relative;
+    padding: 30% 0 4% 2%;
+}
+
+.mid-intro p {
+    font-size: 0.5em;
+    font-style: italic;
 }
 
 .mid-intro button {
@@ -87,6 +93,12 @@ nav {
     background: #7B82CC;
 }
 
+.mid-intro button:hover {
+    box-shadow: 0 5px 25px rgba(38, 107, 163, 0.8);
+}
+
+/* MID BODY STARTS HERE */
+
 .prices img,
 .specials img {
     width: 300px;
@@ -98,9 +110,10 @@ nav {
 
 .mid-body {
     display: flex;
-    margin-top: 2%;
+    padding: 1% 0;
     justify-content: center;
     gap: 5%;
+    background: #887744;
 }
 
 .prices button,
@@ -119,8 +132,7 @@ nav {
 }
 
 .prices button:hover,
-.specials button:hover,
-.mid-intro button:hover {
+.specials button:hover {
     box-shadow: 0 5px 15px rgba(144, 238, 144, 0.8);
 }
 
@@ -144,7 +156,7 @@ nav {
 
 .features-products {
     display: flex;
-    margin-top: 2%;
+    padding-top: 2%;
     justify-content: center;
     gap: 5%;
     padding-bottom: 1%;
