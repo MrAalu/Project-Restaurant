@@ -21,10 +21,11 @@ body {
 }
 
 .container {
-    /* background-image: linear-gradient(rgba(248, 252, 30, 0.65), rgba(9, 0, 77, 0.65)), url(img/background.jpg); */
+
+    /* background-image: linear-gradient(rgba(248, 248, 248, 0.35), rgba(0, 0, 0, 0.35)), url(img/background.jpg);
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     width: 100%;
 }
 
@@ -57,7 +58,8 @@ nav {
 
 /* WELCOME TO PART STARTS HERE  */
 .mid {
-    background-image: linear-gradient(rgba(248, 252, 30, 0.65), rgba(9, 0, 77, 0.65)), url(img/background3.jpg);
+    background: #85A300;
+    /* background-image: linear-gradient(rgba(248, 252, 30, 0.65), rgba(9, 0, 77, 0.65)), url(img/background3.jpg); */
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -76,13 +78,13 @@ nav {
 .mid-intro button {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.6em;
-    color: rgb(0, 0, 0);
+    color: black;
     font-weight: bold;
     cursor: pointer;
     border: 2px solid black;
     border-radius: 10px;
     padding: 3px 5px;
-    background: lightblue;
+    background: #7B82CC;
 }
 
 .prices img,
@@ -123,3 +125,76 @@ nav {
 }
 
 /* FEATURES PRODUCTS  PART STARTS HERE  */
+/* Features main class, Features-Prodcuts-Sub = Product1,2,3... */
+.features {
+    background: #7B82CC;
+    width: 100%;
+    height: 100%;
+    /* min-height: 100vh; */
+    text-align: center;
+}
+
+.features-intro {
+    color: rgb(0, 0, 0);
+    align-items: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.3em;
+}
+
+.features-products {
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+    gap: 5%;
+    padding-bottom: 1%;
+
+}
+
+.features-products img {
+    width: 400px;
+    height: 300px;
+    border: 0.5em solid lightblue;
+    border-radius: 10%;
+    box-shadow: 0 0 50px 10px rgba(86, 100, 228, 0.5);
+}
+
+.features-products button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3em;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 3px 5px;
+    width: 100%;
+    background: lightblue;
+}
+
+.features-products button:hover {
+    box-shadow: 0 5px 15px rgba(144, 238, 144, 0.8);
+}
+
+/* FOOTER STARTS HERE  */
+
+.footer {
+    background: #655369;
+    text-align: center;
+    min-height: 100%;
+    display: block;
+    padding-top: 1%;
+
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100%;
+    background: lightblue;
+}
