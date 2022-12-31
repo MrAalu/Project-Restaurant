@@ -8,6 +8,7 @@
 body {
     width: 100%;
     min-height: 100vh;
+    background: #FBD7B1;
 }
 
 img {
@@ -44,5 +45,34 @@ img {
     align-items: center;
     justify-content: space-between;
     margin: 2% auto;
+    box-shadow: 0 0 50px 10px rgba(86, 100, 228, 0.5);
+}
 
+.tables button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3em;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 3px 5px;
+    width: 100%;
+    background: lightblue;
+    margin-top: 10px;
+}
+
+.tables button:hover {
+    box-shadow: 0 5px 15px rgba(144, 238, 144, 0.8);
+}
+
+
+input[type=datetime-local] {
+    background-color: lightblue;
+    color: black;
+    font-size: large;
+}
+
+input[type=datetime-local]:focus {
+    background-color: rgb(85, 241, 137);
 }
