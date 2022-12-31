@@ -60,7 +60,7 @@ nav {
 /* WELCOME TO PART STARTS HERE  */
 .mid-top {
     /* background: #85A300; */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(89, 163, 233, 0.2)), url(img/background2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(89, 163, 233, 0.2)), url(/img/background2.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
