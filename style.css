@@ -10,7 +10,7 @@ body {
     min-height: 100vh;
 }
 
-.logo {
+/* .logo {
     width: 250px;
     cursor: pointer;
 }
@@ -18,7 +18,7 @@ body {
 .profileicon {
     width: 30px;
     cursor: pointer;
-}
+} */
 
 .container {
 
@@ -29,6 +29,7 @@ body {
     width: 100%;
 }
 
+/* 
 nav ul li a {
     font-size: 2em;
     color: white;
@@ -54,7 +55,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+} */
 
 /* WELCOME TO PART STARTS HERE  */
 .mid-top {

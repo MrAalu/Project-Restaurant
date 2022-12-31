@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+img {
+    width: 200px;
+}
+
+.tables {
+    display: flex;
+    text-align: center;
+}
+
+.time {
+    text-align: center;
+}
+
+.time h2 {
+    font-weight: bolder;
+    font-size: 3em;
+    display: none;
+}
+
+.time h3 {
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.A1,
+.A2,
+.A3,
+.A4 {
+    border: 5px solid black;
+    border-radius: 15px;
+    padding: 1%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2% auto;
+
+}
