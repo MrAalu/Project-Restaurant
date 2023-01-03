@@ -1,0 +1,21 @@
+@media screen and (min-width : 1920px) {
+    .mid-top {
+        /* background: #85A300; */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(89, 163, 233, 0.2)), url("/img/background2.jpg");
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        /* min-height: 100vh; */
+        min-height: calc(100vh - 112px);
+        text-align: left;
+    }
+
+    .mid-intro {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 3em;
+        position: relative;
+        padding: 32% 0 0 2%;
+        color: purple;
+    }
+}

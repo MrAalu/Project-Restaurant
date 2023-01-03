@@ -10,16 +10,6 @@ body {
     min-height: 100vh;
 }
 
-/* .logo {
-    width: 250px;
-    cursor: pointer;
-}
-
-.profileicon {
-    width: 30px;
-    cursor: pointer;
-} */
-
 .container {
 
     /* background-image: linear-gradient(rgba(248, 248, 248, 0.35), rgba(0, 0, 0, 0.35)), url(img/background.jpg);
@@ -29,38 +19,10 @@ body {
     width: 100%;
 }
 
-/* 
-nav ul li a {
-    font-size: 2em;
-    color: white;
-    text-decoration: none;
-    text-transform: capitalize;
-}
-
-nav ul {
-    list-style: none;
-    width: 100%;
-    text-align: right;
-    padding-right: 2%;
-}
-
-nav ul li {
-    display: inline-block;
-    margin: -1% 2%;
-}
-
-nav {
-    background: rgb(104, 160, 179);
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-} */
-
 /* WELCOME TO PART STARTS HERE  */
 .mid-top {
     /* background: #85A300; */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(89, 163, 233, 0.2)), url(/img/background2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(89, 163, 233, 0.2)), url("/img/background2.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
